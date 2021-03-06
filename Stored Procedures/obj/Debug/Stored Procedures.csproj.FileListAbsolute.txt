@@ -1,0 +1,10 @@
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\bin\Debug\Stored Procedures.exe.config
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\bin\Debug\Stored Procedures.exe
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\bin\Debug\Stored Procedures.pdb
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored Procedures.csprojAssemblyReference.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored_Procedures.Form1.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored_Procedures.Properties.Resources.resources
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored Procedures.csproj.GenerateResource.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored Procedures.csproj.CoreCompileInputs.cache
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored Procedures.exe
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored Procedures.pdb
