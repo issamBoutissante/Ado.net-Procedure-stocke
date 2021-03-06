@@ -8,3 +8,4 @@ C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises
 C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored Procedures.csproj.CoreCompileInputs.cache
 C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored Procedures.exe
 C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored Procedures.pdb
+C:\Users\bouti\OneDrive\سطح المكتب\desktop dev client serveur\exercises\Stored Procedures\Stored Procedures\obj\Debug\Stored_Procedures.Form2.resources

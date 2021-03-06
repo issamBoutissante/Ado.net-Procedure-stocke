@@ -22,6 +22,7 @@ namespace Stored_Procedures
         public Form1()
         {
             InitializeComponent();
+            this.CenterToScreen();
             connection = new SqlConnection(connectionString);
         }
 
@@ -78,6 +79,12 @@ namespace Stored_Procedures
                 reader.Close();
                 connection.Close();
             }
+        }
+
+        private void NestPage_Click(object sender, EventArgs e)
+        {
+            new Form2(this).Show();
+            this.Visible=false;
         }
     }
 }

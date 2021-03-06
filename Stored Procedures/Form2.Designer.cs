@@ -41,6 +41,7 @@ namespace Stored_Procedures
             this.returnValueTxt = new System.Windows.Forms.TextBox();
             this.outputTxt = new System.Windows.Forms.TextBox();
             this.TestOutput = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ComptesdataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,6 +52,7 @@ namespace Stored_Procedures
             this.NumClient.Name = "NumClient";
             this.NumClient.Size = new System.Drawing.Size(121, 21);
             this.NumClient.TabIndex = 10;
+            this.NumClient.SelectedIndexChanged += new System.EventHandler(this.NumClient_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -114,6 +116,7 @@ namespace Stored_Procedures
             this.TestReturnValue.TabIndex = 11;
             this.TestReturnValue.Text = "Test Return Value";
             this.TestReturnValue.UseVisualStyleBackColor = true;
+            this.TestReturnValue.Click += new System.EventHandler(this.TestReturnValue_Click);
             // 
             // returnValueTxt
             // 
@@ -137,12 +140,24 @@ namespace Stored_Procedures
             this.TestOutput.TabIndex = 13;
             this.TestOutput.Text = "Test Output";
             this.TestOutput.UseVisualStyleBackColor = true;
+            this.TestOutput.Click += new System.EventHandler(this.TestOutput_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(3, 244);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 23);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Last Page";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(588, 269);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.outputTxt);
             this.Controls.Add(this.TestOutput);
             this.Controls.Add(this.returnValueTxt);
@@ -154,6 +169,7 @@ namespace Stored_Procedures
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ComptesdataGridView)).EndInit();
             this.ResumeLayout(false);
@@ -175,5 +191,6 @@ namespace Stored_Procedures
         private System.Windows.Forms.TextBox returnValueTxt;
         private System.Windows.Forms.TextBox outputTxt;
         private System.Windows.Forms.Button TestOutput;
+        private System.Windows.Forms.Button button1;
     }
 }

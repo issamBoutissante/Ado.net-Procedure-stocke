@@ -37,6 +37,7 @@ namespace Stored_Procedures
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NestPage = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ComptesdataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,11 +104,22 @@ namespace Stored_Procedures
             this.Column3.HeaderText = "type";
             this.Column3.Name = "Column3";
             // 
+            // NestPage
+            // 
+            this.NestPage.Location = new System.Drawing.Point(445, 231);
+            this.NestPage.Name = "NestPage";
+            this.NestPage.Size = new System.Drawing.Size(75, 23);
+            this.NestPage.TabIndex = 6;
+            this.NestPage.Text = "Next Page";
+            this.NestPage.UseVisualStyleBackColor = true;
+            this.NestPage.Click += new System.EventHandler(this.NestPage_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 266);
+            this.Controls.Add(this.NestPage);
             this.Controls.Add(this.NumClient);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -132,6 +144,7 @@ namespace Stored_Procedures
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.Button NestPage;
     }
 }
 
